@@ -19,10 +19,6 @@ time, mark, audio, video {
   background: transparent;
 }
 
-body {
-  line-height: 1;
-}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -94,6 +90,7 @@ input, select {
 }
 
 body {
+  line-height: 1;
   background-color: #362d68;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,11 +121,19 @@ body {
   height: 60vh;
 }
 
+#mainHeader1 {
+  font-size: 200%;
+}
+
 #managementConsole {
   -ms-flex-item-align: start;
       align-self: flex-start;
   width: 20%;
   height: 60vh;
+}
+
+#managementHeader1 {
+  font-size: 200%;
 }
 
 #creationConsole {
