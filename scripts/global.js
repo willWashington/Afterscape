@@ -17,7 +17,12 @@
     teal2: "#8abeb7"
   };
 
-console.log("TESTING");
+  counter = 0;
+  window.addEventListener('load', (event) => {
+    counter++;
+    console.log(counter);
+
+  });
 
 
 
