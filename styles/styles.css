@@ -124,17 +124,29 @@ body {
   height: 60vh;
 }
 
-#creationConsole {
+#managementConsole {
   -ms-flex-item-align: start;
       align-self: flex-start;
   width: 20%;
   height: 60vh;
 }
 
-#managementConsole {
+#creationConsole {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   width: 20%;
   height: 25vh;
+}
+
+#creationHeader1 {
+  font-size: 200%;
+}
+
+#button7 {
+  background-color: green; 
+  width: 200px; 
+  height: 50px; 
+  font-family:'Times New Roman', Times, serif; 
+  font-size: 3ch;
 }
 /*# sourceMappingURL=styles.css.map */
