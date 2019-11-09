@@ -136,6 +136,16 @@ body {
   font-size: 200%;
 }
 
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+
 #creationConsole {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
