@@ -44,16 +44,13 @@ function generateCharacter() {
                 title.innerHTML = yourCharacter.title;
             }
             if (radials[x].value === "Others") {
-                console.log("There's only two")
-                var rand = Math.floor(Math.random() * females.length);
-                var yourCharacter = males[rand];
-                name.innerHTML = yourCharacter.name + " " + yourCharacter.surname;
-                gender.innerHTML = yourCharacter.gender;
-                age.innerHTML = yourCharacter.age;
-                birthday.innerHTML = yourCharacter.birthday.mdy;
-                photo.src = yourCharacter.photo;
-                region.innerHTML = yourCharacter.region;
-                title.innerHTML = yourCharacter.title;
+                name.innerHTML = "There's only two!";
+                gender.innerHTML = null;
+                age.innerHTML = null;
+                birthday.innerHTML = null;
+                photo.src = null;
+                region.innerHTML = null;
+                title.innerHTML = null;
             }
         }
     }
