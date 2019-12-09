@@ -20,7 +20,6 @@ function generateCharacter() {
                 var rand = Math.floor(Math.random() * females.length);
                 //^^^^select a random number that corresponds to the character
                 var yourCharacter = females[rand];
-                console.log(yourCharacter);
                 name.innerHTML = yourCharacter.name + " " + yourCharacter.surname;
                 gender.innerHTML = yourCharacter.gender;
                 age.innerHTML = yourCharacter.age;
@@ -30,7 +29,6 @@ function generateCharacter() {
                 title.innerHTML = yourCharacter.title;
                 //log your character's information
             }
-
             if (radials[x].value === "Male") {
                 var rand = Math.floor(Math.random() * males.length);
                 var yourCharacter = males[rand];
