@@ -12,7 +12,7 @@
     blue1: "#5f819d",
     blue2: "#81a2be",
     purple1: "#85678F",
-    purple2:" #b294bb",
+    purple2: "#b294bb",
     teal1: "#5e8d87",
     teal2: "#8abeb7"
   };
@@ -23,6 +23,3 @@
     console.log(counter);
 
   });
-
-
-

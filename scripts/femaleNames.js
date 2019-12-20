@@ -1,5 +1,4 @@
-var females = [
-  {
+var females = [{
     "name": "Barbara",
     "surname": "Gibson",
     "gender": "female",

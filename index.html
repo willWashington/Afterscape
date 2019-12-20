@@ -14,47 +14,50 @@
 </head>
 
 <body>
-  <div id="mainConsole" class="console">
-    <h1 id="mainHeader1">Main Console</h1>
-    <p>test</p>
-    
-  </div>
-
-
-  <div id="managementConsole" class="console">
-    <h1 id="managementHeader1">Management Console</h1>
-    
-    <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-      
-      <ul class="dropdown-menu">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </ul>
-    </button>
+  <div class="storyConsole">
+    <div class="consoleLeft">
+      <div id="mainConsole" class="mainConsole">
+        <h1 id="mainHeader1">Main Console</h1>
+      </div>
+      <div id="creationConsole" class="creationConsole">
+        <h1 id="creationHeader1">Creation Console</h1>
+        <input class="radial" type="radio" name="gender" value="Male">Male
+        <input class="radial" type="radio" name="gender" value="Female">Female
+        <input class="radial" type="radio" name="gender" value="Others">Others
+        <br>
+        <button id="button7">Choose</button>
+        <div class="initialCharacter">
+          <div class="intialCharacterImage">
+            <img id="photo" src="" alt=""></img>
+          </div>
+          <div class="intialCharacterDetails">
+            <div id="name"></div>
+            <div id="gender"></div>
+            <div id="age"></div>
+            <div id="birthday"></div>
+            <div id="region"></div>
+            <div id="title"></div>
+          </div>
+        </div>
+      </div>
     </div>
-  
-  </div>
-
-
-  <div id="creationConsole" class="console">
-    <h1 id="creationHeader1">Creation Console</h1>
-
-    <input class="radial" type="radio" name="gender" value="Male">Male
-    <input class="radial" type="radio" name="gender" value="Female">Female
-    <input class="radial" type="radio" name="gender" value="Others">Others
-    <br>
-    <button id="button7">Choose</button>
-    <div id="name"></div>
-    <div id="gender"></div>
-    <div id="age"></div>
-    <div id="birthday"></div>
-    <img id="photo" src="" alt=""></img>
-    <div id="region"></div>
-    <div id="title"></div>
+    <div class="consoleRight">
+      <div id="managementConsole" class="managementConsole">
+        <h1 id="managementHeader1">Management Console</h1>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </button>
+          </div>
+      </div>
+    </div>
   </div>
 </body>
+
 <footer>
   <script src="./scripts/RandomCharacterGen.js" type="text/javascript"></script>
 </footer>

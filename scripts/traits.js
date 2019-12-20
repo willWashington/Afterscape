@@ -1,6 +1,3 @@
-
-
-
 //Under the Technology Sector there are:
 //Fields:
 //Networking
@@ -88,9 +85,9 @@ var genders = [
   "Female"
 ];
 var commonHairColors = [
-  "black", 
-  "brown", 
-  "blonde",  
+  "black",
+  "brown",
+  "blonde",
   "red",
   "gray"
 ];

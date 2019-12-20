@@ -1,5 +1,105 @@
+/* General Page */
 * {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #362d68;
+}
+
+/* all consoles */
+.storyConsole {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Main & Creation consoles */
+.consoleLeft {
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main console */
+.mainConsole {
+  margin: 2% 0 0 0;
+  flex: 4;
+  border: 1px solid white;
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 7px 7px 12px -2px rgba(0, 0, 0, 0.75);
+  max-height: 80%;
+
+}
+
+/* Creation console */
+.creationConsole {
+  margin: 2% 0 0 0;
+  flex: 1;
+  border: 1px solid white;
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 7px 7px 12px -2px rgba(0, 0, 0, 0.75);
+}
+
+.initialCharacter {
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+.intialCharacterImage {}
+
+.intialCharacterDetails {
+  font-size: x-large;
+}
+
+#button7 {
+  background-color: green;
+  width: 200px;
+  height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3ch;
+}
+
+/* Management console */
+.consoleRight {
+  flex-basis: 18%;
+  display: flex;
+}
+
+.managementConsole {
+  margin: 2% 0 0 0;
+  flex: 1;
+  border: 1px solid white;
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  box-shadow: 7px 7px 12px -2px rgba(0, 0, 0, 0.75);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/*
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
@@ -35,14 +135,14 @@ a {
   background: transparent;
 }
 
-/* change colours to suit your needs */
+/* change colours to suit your needs /
 ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* change colours to suit your needs */
+/* change colours to suit your needs /
 mark {
   background-color: #ff9;
   color: #000;
@@ -64,7 +164,7 @@ table {
   border-spacing: 0;
 }
 
-/* change border colour to suit your needs */
+/* change border colour to suit your needs /
 hr {
   display: block;
   height: 1px;
@@ -153,4 +253,5 @@ body {
   font-family:'Times New Roman', Times, serif; 
   font-size: 3ch;
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css.map /
+*/
